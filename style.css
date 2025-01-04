@@ -1,0 +1,47 @@
+#whole{
+    height: 450px;
+    width: 300px;
+    padding: 50px;
+    background-color: lightblue;
+    border: 3px solid black;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.display{
+    height: 150px;
+    width: 200px;
+    background-color: wheat;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
+
+.keys{
+    display: flex;
+    background-color: lightgrey;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    height:150px;
+    width: 150px;
+}
+
+.num{
+    height: 50px;
+    width: 33px;
+}
+
+.operator{
+    height: 150px;
+    width: 100px;
+}
+
+.clear-equal{
+    display: flex;
+}
